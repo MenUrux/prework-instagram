@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+
+}
+
+body {
+    background-color: #eee;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 12px; */
+}
+
+.header-date {
+    color: #464646;
+}
+
+section.post {
+    width: 400px;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+span.tag {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* width: 768px; */
+}
+
+.post-img {
+    width: 400px;
+}
